@@ -3,6 +3,7 @@ import React from "react";
 import HeroSection from "@/components/sections/HeroSection";
 import FeaturesSection from "@/components/sections/FeaturesSection";
 import BenefitsSection from "@/components/sections/BenefitsSection";
+import { Web3Section } from "@/components/sections";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <HeroSection />
       <FeaturesSection />
       <BenefitsSection />
+      <Web3Section />
     </main>
   );
 };
