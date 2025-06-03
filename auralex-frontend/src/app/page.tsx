@@ -4,6 +4,8 @@ import HeroSection from "@/components/sections/HeroSection";
 import FeaturesSection from "@/components/sections/FeaturesSection";
 import BenefitsSection from "@/components/sections/BenefitsSection";
 import { Web3Section } from "@/components/sections";
+import CTASection from "@/components/sections/CTASection";
+
 
 const HomePage = () => {
   return (
@@ -12,8 +14,11 @@ const HomePage = () => {
       <FeaturesSection />
       <BenefitsSection />
       <Web3Section />
+      <CTASection />
     </main>
   );
 };
 
 export default HomePage;
+
+
